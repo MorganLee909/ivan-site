@@ -226,7 +226,7 @@ header.selectedWorks{
     width: 35px;
 }
 
-footer{
+.conclusion{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -236,11 +236,11 @@ footer{
     position: relative;
 }
 
-footer p{
+.conclusion p{
     margin-bottom: 15px;
 }
 
-footer a{
+.conclusion a{
     font-weight: bold;
     text-decoration: none;
     color: black;
@@ -250,4 +250,44 @@ footer a{
     position: absolute;
     bottom: 35px;
     right: 35px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background: #161820;
+    padding: 100px calc((100vw - 1250px) / 2);
+    color: white;
+}
+
+footer h3{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.footerItems{
+    display: flex;
+    flex-wrap: wrap;
+    width: 260px;
+}
+
+.footerItems > *{
+    margin: 25px 35px 0 0;
+    color: white;
+    text-decoration: none;
+}
+
+footer .footerContact{
+    flex-direction: column;
+}
+
+.footerContact > *{
+    display: flex;
+    align-items: center;
+}
+
+.footerContact > * img{
+    margin-right: 15px;
+    height: 24px;
+    width: 24px;
 }
