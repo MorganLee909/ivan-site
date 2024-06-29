@@ -209,14 +209,30 @@ header.selectedWorks{
     margin-bottom: 15px;
 }
 
-.workWith{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.workWith h1{
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
 }
 
-.workWith img{
-    margin-bottom: 150px;
+.companyImages{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.companyImages div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 350px;
+    margin: 0 5%;
+}
+
+.companyImages img{
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .awardsRec{
