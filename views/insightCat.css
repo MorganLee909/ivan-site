@@ -142,3 +142,29 @@ section{
 .teamList ul{
     line-height: 45px;
 }
+
+.myRole{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 35px 0;
+}
+
+.myRole h2{
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+.myRole > div{
+    max-width: 550px;
+}
+
+.myRole ul{
+    list-style-image: url("/image/puzzleIcon.svg");
+    font-size: 18px;
+}
+
+.myRole li{
+    margin: 25px 0;
+}
