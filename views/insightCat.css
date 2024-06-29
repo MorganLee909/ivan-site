@@ -36,6 +36,16 @@ section{
     margin: 35px calc((100vw - 1350px) / 2);
 }
 
+.dividerOne{
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    margin: 0 calc((100vw - 1350px) / 2);
+}
+
+.dividerTwo{
+    border-top: 2px dashed rgba(255, 255, 255, 0.2);
+    margin: 0 calc((100vw - 1350px) / 2);
+}
+
 .howStarted{
     display: flex;
     flex-direction: column;
@@ -87,4 +97,48 @@ section{
 .leftTwo{
     font-size: 16px;
     color: #d3d3d3;
+}
+
+.problemPoints{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 35px;
+}
+
+.problemPoints > div{
+    display: flex;
+    width: 45%;
+    max-width: 550px;
+    margin: 35px 0;
+}
+
+.problemPoints img{
+    margin-right: 15px;
+    height: 25px;
+    width: 25px;
+}
+
+.teamNote{
+    max-width: 790px;
+    font-size: 21px;
+    margin: 35px 0;
+    text-align: center;
+}
+
+.teamList{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 35px;
+}
+
+.teamList img{
+    height: 145px;
+    width: 145px;
+}
+
+.teamList ul{
+    line-height: 45px;
 }
