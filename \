@@ -259,10 +259,4 @@ section{
     font-size: 21px;
     line-height: 38px;
     max-width: 867px;
-    margin: 20px 0 45px 0;
-    text-align: center;
-}
-
-.interviews img{
-    margin-bottom: 75px;
 }
