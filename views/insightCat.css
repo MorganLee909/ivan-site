@@ -2,6 +2,7 @@
 
 body{
     background: #161820;
+    color: white;
 }
 
 .bold{
@@ -27,7 +28,6 @@ header p:first-of-type{
 }
 
 header > *{
-    color: white;
     text-decoration: none;
     margin: 0 15px;
 }
@@ -50,7 +50,6 @@ section{
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: white;
 }
 
 .howStarted h2{
@@ -146,11 +145,10 @@ section{
 .myRole{
     display: flex;
     justify-content: space-around;
-    color: white;
     padding: 35px 0;
 }
 
-.myRole h2{
+.myRole h2, .designProcess h2{
     font-size: 38px;
     font-weight: bold;
     margin-bottom: 35px;
@@ -167,4 +165,35 @@ section{
 
 .myRole li{
     margin: 25px 0;
+}
+
+.designProcess{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.designProcess p{
+    font-size: 21px;
+    line-height: 38px;
+    max-width: 675px;
+    margin-bottom: 55px;
+}
+
+.processImages{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    position: relative;
+}
+
+.designProcess1{
+    max-width: 1116px;
+}
+
+.designProcess2{
+    height: 351px;
+    position: absolute;
+    top: -175px;
+    left: 12px;
 }
